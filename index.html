@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPC LOAS e Direitos para Autistas (ODS 8)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">BPC/LOAS e Direitos (ODS 8)</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">O que é</a></li>
+                <li><a href="#quem-tem-direito">Quem tem direito</a></li>
+                <li><a href="#documentos">Documentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#chatbot" class="btn-nav">Tirar Dúvidas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Guia BPC/LOAS para Autistas</h1>
+            <p>Um guia completo e acessível sobre o Benefício de Prestação Continuada (BPC/LOAS) para pessoas com autismo e suas famílias.</p>
+            <a href="#chatbot" class="btn-primary">Falar com Assistente Virtual</a>
+        </div>
+    </section>
+
+    <!-- O que é BPC -->
+    <section id="sobre" class="section-white">
+        <div class="container">
+            <h2>O que é o BPC/LOAS?</h2>
+            <div class="card">
+                <p>O Benefício de Prestação Continuada (BPC) da Lei Orgânica da Assistência Social (LOAS) é a garantia de um salário mínimo mensal à pessoa com deficiência e ao idoso com 65 anos ou mais que comprovem não possuir meios de prover a própria manutenção nem de tê-la provida por sua família.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quem tem direito -->
+    <section id="quem-tem-direito" class="section-gray">
+        <div class="container">
+            <h2>Quem tem direito?</h2>
+            <div class="grid-cards">
+                <div class="card-item">
+                    <h3>Autistas (TEA)</h3>
+                    <p>Pessoas com Transtorno do Espectro Autista de qualquer nível, desde que a deficiência gere barreiras para a vida plena em sociedade.</p>
+                </div>
+                <div class="card-item">
+                    <h3>Renda Familiar</h3>
+                    <p>A renda por pessoa da família deve ser igual ou inferior a 1/4 do salário mínimo. (Gastos com saúde podem ser deduzidos).</p>
+                </div>
+                <div class="card-item">
+                    <h3>CadÚnico</h3>
+                    <p>É obrigatório que a família esteja inscrita e com os dados atualizados no Cadastro Único (feito no CRAS).</p>
+                </div>
+                <div class="card-item">
+                    <h3>Idosos (65+)</h3>
+                    <p>Idosos com 65 anos ou mais e baixa renda per capita têm direito ao BPC, sem necessidade de comprovar deficiência. É preciso CadÚnico ativo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentos Necessários -->
+    <section id="documentos" class="section-white">
+        <div class="container">
+            <h2>Documentos Necessários</h2>
+            <ul class="doc-list">
+                <li>✅ CPF e RG de todos os membros da família</li>
+                <li>✅ Comprovante de residência atualizado</li>
+                <li>✅ Laudo médico detalhado com CID (para autistas)</li>
+                <li>✅ Comprovante de renda (Carteira de Trabalho, contracheque)</li>
+                <li>✅ Inscrição no CadÚnico</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot" class="section-chat">
+        <div class="container">
+            <h2>Ainda tem dúvidas?</h2>
+            <p>Converse com nosso assistente virtual abaixo.</p>
+            
+            <div class="chat-wrapper">
+                <div class="app-container">
+                    <header class="chat-header">
+                        <h3>Assistente BPC</h3>
+                        <p>Pergunte sobre laudos, prazos e regras</p>
+                    </header>
+                    
+                    <main id="chat-container">
+                        <div class="message bot-message">
+                            Olá! Sou um assistente virtual para tirar dúvidas sobre o BPC.
+                            <br><br>
+                            Pergunte algo como:
+                            <ul>
+                                <li>"Como pedir no Meu INSS?"</li>
+                                <li>"Quais documentos levar na perícia?"</li>
+                                <li>"Autista nível 1 tem direito?"</li>
+                                <li>"Quem entra no cálculo da renda?"</li>
+                                <li>"Precisa CadÚnico atualizado?"</li>
+                                <li>"Quanto tempo demora a análise?"</li>
+                                <li>"Se for negado, o que faço?"</li>
+                                <li>"Posso trabalhar e manter o BPC?"</li>
+                                <li>"Idoso 65+ tem direito a aposentadoria?"</li>
+                                <li>"Posso ter BPC e trabalhar?"</li>
+                                <li>"Quais documentos para idoso?"</li>
+                                <li>"Contato da advogada"</li>
+                            </ul>
+                        </div>
+                    </main>
+            
+                    <footer class="input-area">
+                        <input type="text" id="user-input" placeholder="Digite sua dúvida aqui..." autocomplete="off">
+                        <button id="send-btn">Enviar</button>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section-white">
+        <div class="container">
+            <h2>Contato da Advogada</h2>
+            <div class="contact-card">
+                <div class="contact-actions">
+                    <a class="btn btn-whatsapp" href="https://wa.me/5534998952305" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+                    <a class="btn btn-instagram" href="https://www.instagram.com/adv.romenialuiza/" target="_blank" rel="noopener" aria-label="Abrir Instagram">Instagram</a>
+                    <a class="btn btn-site" href="https://rluzadvocacia.com/" target="_blank" rel="noopener" aria-label="Abrir site">Site</a>
+                    <a class="btn btn-email" href="mailto:romenia.luiza@gmail.com" aria-label="Enviar e-mail">E-mail</a>
+                </div>
+                <div class="contact-info">
+                    <p><span class="label instagram-label">Instagram:</span> <a href="https://www.instagram.com/adv.romenialuiza/" target="_blank" rel="noopener">adv.romenialuiza</a></p>
+                    <p><span class="label site-label">Site:</span> <a class="site-link" href="https://rluzadvocacia.com/" target="_blank" rel="noopener">rluzadvocacia.com</a></p>
+                    <p><span class="label email-label">E-mail:</span> <a class="email-link" href="mailto:romenia.luiza@gmail.com">romenia.luiza@gmail.com</a></p>
+                    <p><span>Telefone:</span> <a href="tel:+5534998952305">+55 34 99895-2305</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Projeto de Extensão Universitária</h3>
+                    <p><strong>Curso:</strong> Bacharelado em Sistemas de Informação</p>
+                    <p><strong>Área Temática:</strong> Proteção de Direitos Trabalhistas e Promoção da Justiça Social</p>
+                    <p><strong>Objetivo:</strong> Usar a tecnologia para democratizar o acesso à informação jurídica para populações vulneráveis.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato da Advogada</h3>
+                    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/adv.romenialuiza/" target="_blank" rel="noopener">adv.romenialuiza</a></p>
+                    <p><strong>Site:</strong> <a href="https://rluzadvocacia.com/" target="_blank" rel="noopener">rluzadvocacia.com</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="tel:+5534998952305">+55 34 99895-2305</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Alinhamento ODS (ONU)</h3>
+                    <div class="ods-box">
+                        <span class="ods-number">8</span>
+                        <span class="ods-text">Trabalho Decente e<br>Crescimento Econômico</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Desenvolvido por Vitor - Semestre 2026.1</p>
+                <p class="disclaimer">Aviso: Este site tem caráter informativo e não substitui consultoria jurídica oficial.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
